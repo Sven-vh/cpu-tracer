@@ -1,0 +1,42 @@
+﻿  template.cpp
+  InputManager.cpp
+  KeyFrame.cpp
+  TweenManager.cpp
+  ImCurveEdit.cpp
+  ImGradient.cpp
+  ImSequencer.cpp
+  Generating Code...
+  Canvas.cpp
+  Cube.cpp
+  CellularAutomata.cpp
+  FreeCam.cpp
+  ICanvasElement.cpp
+  Image.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  GameScene.cpp
+  Material.cpp
+  MenuScene.cpp
+  PuzzleLevel.cpp
+  PuzzleScene.cpp
+  SceneManager.cpp
+  Settings.cpp
+  Shapes.cpp
+  Generating Code...
+  Compiling...
+  opencl.cpp
+  opengl.cpp
+  scene.cpp
+  surface.cpp
+  tmpl8math.cpp
+  renderer.cpp
+  Text.cpp
+  Generating Code...
+     Creating library E:\Github Projects\cpu-tracer\x64\voxpopuli.lib and object E:\Github Projects\cpu-tracer\x64\voxpopuli.exp
+  tmpl_2024-vox.vcxproj -> E:\Github Projects\cpu-tracer\x64\voxpopuli.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

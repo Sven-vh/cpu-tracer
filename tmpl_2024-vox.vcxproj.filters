@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="renderer.cpp" />
+    <ClCompile Include="template\opencl.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\opengl.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\surface.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\template.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui.cpp">
+      <Filter>template\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_demo.cpp">
+      <Filter>template\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_draw.cpp">
+      <Filter>template\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_impl_glfw.cpp">
+      <Filter>template\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_impl_opengl3.cpp">
+      <Filter>template\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_tables.cpp">
+      <Filter>template\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_widgets.cpp">
+      <Filter>template\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="template\scene.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\tmpl8math.cpp" />
+    <ClCompile Include="Settings.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\ImCurveEdit.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\ImGradient.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\ImSequencer.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Game\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Game\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzleScene.cpp">
+      <Filter>Game\SceneManager\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp" />
+    <ClCompile Include="Material.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzleLevel.cpp" />
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Game\SceneManager\MenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ICanvasElement.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CellularAutomata.cpp">
+      <Filter>Game\SceneManager\GameOfLife</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeCam.cpp">
+      <Filter>Game\SceneManager\FreeCam</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="renderer.h" />
+    <ClInclude Include="template\camera.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\common.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\opencl.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\opengl.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\precomp.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\scene.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\surface.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_truetype.h">
+      <Filter>template\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui.h">
+      <Filter>template\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_impl_glfw.h">
+      <Filter>template\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_impl_opengl3.h">
+      <Filter>template\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>template\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_internal.h">
+      <Filter>template\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_rectpack.h">
+      <Filter>template\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_textedit.h">
+      <Filter>template\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imconfig.h">
+      <Filter>template\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="template\tmpl8math.h" />
+    <ClInclude Include="Light.h">
+      <Filter>Game\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Game\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\ogt_vox.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Game\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Game\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiExtensions.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaLight.h">
+      <Filter>Game\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Morton.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\ImCurveEdit.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\ImGradient.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\ImSequencer.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\ImZoomSlider.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ToneMapping.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Game\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Game\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleScene.h">
+      <Filter>Game\SceneManager\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleLevel.h" />
+    <ClInclude Include="MenuScene.h">
+      <Filter>Game\SceneManager\MenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ICanvasElement.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CellularAutomata.h">
+      <Filter>Game\SceneManager\GameOfLife</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeCam.h">
+      <Filter>Game\SceneManager\FreeCam</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template">
+      <UniqueIdentifier>{a7d6e3cb-bfcd-438d-979f-17df241a55b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template\imgui">
+      <UniqueIdentifier>{b1e7f5d5-23d5-4fa2-8854-9a94fb160820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{55427fe0-2b50-4509-8946-c475470f76c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lighting">
+      <UniqueIdentifier>{ef30c276-c278-4479-8988-dcf2f8eb5eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{42bd6206-099e-4dfd-9621-8673f177abff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\SceneManager">
+      <UniqueIdentifier>{89588fe8-234c-4579-a27b-0d18adbdaec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\SceneManager\Scenes">
+      <UniqueIdentifier>{d91429fb-1f5f-4a23-81d7-6458d707db5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level">
+      <UniqueIdentifier>{d815b533-2e2e-48a5-8bcf-f344aca43351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\SceneManager\MenuScene">
+      <UniqueIdentifier>{b7e3da2c-af04-4d5c-8230-942c6e43fb34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{5a498a21-157d-4914-8313-c2bfec17d441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\SceneManager\GameOfLife">
+      <UniqueIdentifier>{7e3b3df5-aaf6-4865-b4a4-d5d5a43ee19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\SceneManager\FreeCam">
+      <UniqueIdentifier>{97a2d6f9-57c0-4e98-b174-2d93fe9b38ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="template\LICENSE">
+      <Filter>template</Filter>
+    </None>
+  </ItemGroup>
+</Project>

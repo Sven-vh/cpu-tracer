@@ -24,9 +24,16 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+*.ipch
+*.vsidx
+*.ipch
+*.db
+*.db
+*.ipch
+*.db
+.vs
